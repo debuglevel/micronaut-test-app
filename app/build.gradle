@@ -7,6 +7,7 @@ group "de.debuglevel.micronautttestapp"
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 micronaut {
@@ -18,6 +19,8 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     testImplementation("io.micronaut.test:micronaut-test-junit5")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+
+    implementation 'com.github.debuglevel:micronaut-test-library:5a1841ad5e'
 }
 
 mainClassName = "de.debuglevel.micronauttestapp.App"
