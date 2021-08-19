@@ -20,7 +20,7 @@ dependencies {
     testImplementation("io.micronaut.test:micronaut-test-junit5")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 
-    implementation 'com.github.debuglevel:micronaut-test-library:45505ef2b6'
+    implementation 'com.github.debuglevel:micronaut-test-library:5e9fbb3f96'
 }
 
 mainClassName = "de.debuglevel.micronauttestapp.App"
