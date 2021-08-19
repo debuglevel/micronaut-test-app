@@ -11,7 +11,7 @@ repositories {
 }
 
 micronaut {
-    version = "2.5.3"
+    version = "2.5.12"
 }
 
 dependencies {
@@ -20,7 +20,7 @@ dependencies {
     testImplementation("io.micronaut.test:micronaut-test-junit5")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 
-    implementation 'com.github.debuglevel:micronaut-test-library:5a1841ad5e'
+    implementation 'com.github.debuglevel:micronaut-test-library:45505ef2b6'
 }
 
 mainClassName = "de.debuglevel.micronauttestapp.App"
